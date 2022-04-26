@@ -1,15 +1,15 @@
 export default function Footer() {
   return (
     <div className='bg-gray-800' id='contact'>
-      <div className='max-w-screen-xl mx-auto text-center pt-12 pb-8 px-4 sm:px-6 lg:py-10 lg:px-8'>
-        <h2 className='text-3xl leading-9 font-extrabold tracking-tight text-cyan-500 sm:text-4xl sm:leading-10 border-solid border-b-2 border-cyan-500 pb-3 w-64 mx-auto'>
+      <div className='mx-auto max-w-screen-xl px-4 pt-12 pb-8 text-center sm:px-6 lg:py-10 lg:px-8'>
+        <h2 className='mx-auto w-64 border-b-2 border-solid border-cyan-500 pb-3 text-3xl font-extrabold leading-9 tracking-tight text-cyan-500 sm:text-4xl sm:leading-10'>
           Contact Us
         </h2>
         <div className='mt-12 flex flex-col items-center'>
-          <div className='inline-flex mb-6 rounded-md shadow-sm'>
+          <div className='mb-6 inline-flex rounded-md shadow-sm'>
             <a
               href='tel:+17785887051'
-              className='inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 tracking-tight font-medium rounded-md text-gray-900 bg-gray-300 hover:bg-gray-400 focus:outline-none focus:border-gray-700 focus:shadow-outline-cyan active:bg-gray-700 transition ease-in-out duration-150'
+              className='focus:shadow-outline-cyan inline-flex items-center rounded-md border border-transparent bg-gray-300 px-4 py-2 text-sm font-medium leading-5 tracking-tight text-gray-900 transition duration-150 ease-in-out hover:bg-gray-400 focus:border-gray-700 focus:outline-none active:bg-gray-700'
             >
               <svg
                 className='-ml-1 mr-2 h-5 w-5'
@@ -28,7 +28,7 @@ export default function Footer() {
           <div className='inline-flex rounded-md shadow-sm'>
             <a
               href='mailto:office@lawyerswest.ca'
-              className='inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 tracking-tight font-medium rounded-md text-gray-900 bg-gray-300 hover:bg-gray-400 focus:outline-none focus:border-gray-700 focus:shadow-outline-gray active:bg-gray-700 transition ease-in-out duration-150'
+              className='focus:shadow-outline-gray inline-flex items-center rounded-md border border-transparent bg-gray-300 px-4 py-2 text-sm font-medium leading-5 tracking-tight text-gray-900 transition duration-150 ease-in-out hover:bg-gray-400 focus:border-gray-700 focus:outline-none active:bg-gray-700'
             >
               <svg
                 className='-ml-1 mr-2 h-5 w-5'
@@ -47,12 +47,12 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className='max-w-screen-xl mx-auto pt-2 pb-6 px-4 overflow-hidden sm:px-6 lg:px-8'>
+      <div className='mx-auto max-w-screen-xl overflow-hidden px-4 pt-2 pb-6 sm:px-6 lg:px-8'>
         <address
-          className='font-normal mb-4 not-italic text-center text-gray-300 text-lg tracking-tight leading-7'
+          className='mb-4 text-center text-lg font-normal not-italic leading-7 tracking-tight text-gray-300'
           id='contact'
         >
-          <div className='font-extrabold leading-9 text-2xl text-gray-300'>
+          <div className='text-2xl font-extrabold leading-9 text-gray-300'>
             Lawyers West LLP
           </div>
           <div className='mb-4'>
@@ -60,11 +60,11 @@ export default function Footer() {
             Coquitlam, BC V3K 3S3
           </div>
         </address>
-        <div className='flex items-center justify-center mb-6 text-gray-400 hover:text-gray-500'>
+        <div className='mb-6 flex items-center justify-center text-gray-400 hover:text-gray-500'>
           <a href='https://g.page/LawyersWestLLP?share'>
             map
             <svg
-              className='h-5 inline ml-1 w-5'
+              className='ml-1 inline h-5 w-5'
               fill='currentColor'
               viewBox='0 0 20 20'
             >
@@ -76,7 +76,7 @@ export default function Footer() {
             </svg>
           </a>
         </div>
-        <hr className='border-gray-600 w-64 mx-auto' />
+        <hr className='mx-auto w-64 border-gray-600' />
         <div className='mt-8'>
           <p className='text-center text-base leading-6 text-gray-400'>
             &copy; 2020 Lawyers West LLP
