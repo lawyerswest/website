@@ -89,7 +89,7 @@ export default function Example() {
                   </p>
                 </dt>
                 <dd className='mt-2 text-base text-gray-500'>
-                  <ul className='lg:list-disc'>
+                  <ul className='list-inside list-disc lg:list-outside'>
                     {feature.description.map((item, idx) => (
                       <li key={idx}>{item}</li>
                     ))}
