@@ -37,7 +37,7 @@ export default function Hero() {
                   <div className='flex w-full items-center justify-between md:w-auto'>
                     <Link to='/'>
                       <span className='sr-only'>Lawyers West LLP</span>
-                      <img className='h-8 w-auto sm:h-16' src={logo} />
+                      <img className='h-12 w-auto sm:h-16' src={logo} />
                     </Link>
                     <div className='-mr-2 flex items-center md:hidden'>
                       <Popover.Button className='inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-500'>
