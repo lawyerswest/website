@@ -6,6 +6,6 @@ node_modules
 /.netlify
 .env
 
-/app/tailwind.css
+/app/styles/tailwind.css
 
 .DS_Store
